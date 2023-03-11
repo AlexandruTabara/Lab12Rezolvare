@@ -34,6 +34,11 @@ namespace Lab12Rezolvare
         }
 
         // method to add an item to the back of the queue
+
+        /// <summary>
+        ///    Am folosit throw new Exception in loc de Console WriteLine
+        /// </summary>
+        /// <param name="item"></param>
         public void Enqueue(T item)
         {
             if (count == maxCapacity)
